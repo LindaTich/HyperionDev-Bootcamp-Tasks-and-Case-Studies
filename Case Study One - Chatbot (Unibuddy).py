@@ -13,12 +13,15 @@ Use the if, elif, else statement control structure.
 Use the print function to output these.
 End'''
 
+# The input function is used to ask a question
+
 
 user_name = input("Please can you enter your name: ")
 
 print(user_name)
 
 print(f"Hi {user_name}")
+
 
 # The f string is used to concatenate
 
@@ -63,7 +66,8 @@ elif user_question == "Where is the politics lecture room?":
 else:
    print("Please enter another question")
 
-# The above if,elif,else enables the user to ask specific questions and recieve a response
+
+# The above if,elif,else enables the user to ask specific questions and receive a response
 
 
    
