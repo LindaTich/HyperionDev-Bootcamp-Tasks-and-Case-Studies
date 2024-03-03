@@ -12,6 +12,8 @@ Use try and except ValueError in while loop.
 Use print function to output.
 End'''
 
+# The below dictionary shows key value pairs
+
 locations = {
    'Urban': [26, 39, 43],
    'Forest': [37, 51, 69]
@@ -20,6 +22,14 @@ locations = {
 locations = ["Urban", "Forest"]
 
 levels = [[26, 39, 43],[37, 51, 69]]
+
+
+# The below is a for loop
+
+# It shows the average level per location
+
+# Enumerate is the counter for the list
+
 
 for i, location in enumerate(locations):
     print(f"Debug: Processing  location {location} with levels{levels[i]}")
@@ -42,11 +52,15 @@ while True:
     except ValueError:
         print("invalid input. Please enter a valid number or 'done'.")
 
+# While loop shows try and except ValueError
+
 if measurements:
       average = sum(measurements) / len(measurements)
       print(f"New Measurements Average Radiation Level: (average)")
 else:
       print("Debug : No new measurements were entered.")
+
+# The above if else statement shows the average calculation
 
 
 
